@@ -346,7 +346,7 @@ module Maxipago
             }
             xml.order {
               xml.recurringPayment {
-                xml.orderID self.options[:order_id]
+                xml.processorID self.options[:processor_id]
                 xml.referenceNum self.options[:reference_num]
                 xml.ipAddress self.options[:ip_address] unless self.options[:ip_address].blank?
                 unless self.options[:billing_name].blank?
