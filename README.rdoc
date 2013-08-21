@@ -1,4 +1,4 @@
-# DEPRECATED, PLEASE SEE BRANCH (1.0.0.rc1)[https://github.com/maxipago/Ruby-Integration-lib-v2] #
+= DEPRECATED, PLEASE SEE BRANCH (1.0.0.rc1)[https://github.com/maxipago/Ruby-Integration-lib-v2] =
 
 == Adicionar a GEM na sua aplicação Rails 3
 
