@@ -96,7 +96,7 @@ module Maxipago
               end
               xml.transactionDetail {
                 xml.payType {
-                  if unless self.options[:token].nil?
+                  if self.options[:token].nil?
                     xml.creditCard {
                       xml.number self.options[:number]
                       xml.expMonth self.options[:exp_month]
