@@ -45,7 +45,7 @@ module Maxipago
 
       def set_ssl_mode
         @http_session.verify_mode = OpenSSL::SSL::VERIFY_NONE
-        @http_session.ssl_timeout = 30
+        @http_session.ssl_timeout = 20
       end
     end
   end
