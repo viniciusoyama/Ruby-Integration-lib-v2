@@ -1,3 +1,3 @@
 module Maxipago
-  VERSION = "1.0.1.2a"
+  VERSION = "1.0.2"
 end

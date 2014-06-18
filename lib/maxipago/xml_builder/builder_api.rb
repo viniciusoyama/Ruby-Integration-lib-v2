@@ -99,6 +99,7 @@ module Maxipago
               xml.billingCountry self.options[:billing_country]
               xml.billingPhone self.options[:billing_phone]
               xml.billingEmail self.options[:billing_email]
+              xml.cvvNumber self.options[:security_code] unless self.options[:security_code]
               xml.onFileEndDate self.options[:onfile_end_date] unless self.options[:onfile_end_date].nil?
               xml.onFilePermissions self.options[:onfile_permissions] unless self.options[:onfile_permissions].nil?
               xml.onFileComment self.options[:onfile_comment] unless self.options[:onfile_comment].nil?
